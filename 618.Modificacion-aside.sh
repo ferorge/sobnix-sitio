@@ -43,10 +43,10 @@ do
     if [[ $SUB_DIR != $DIR_NAME ]]
     then
     SUB_DIR=$DIR_NAME
+    LINK=$(printf "https://$FQDN/$NAME_SITE.html")
     echo "- ${SUB_DIR^}" >> $DIR$FILE
     fi
     LINK=$(printf "https://$FQDN/$SUB_DIR/$NAME_SITE.html")
-    LINK=$(printf "https://$FQDN/$NAME_SITE.html")
     NAME=$(echo $NAME_SITE | sed 's/_/ /g')
     echo "    - [$NAME]($LINK)" >> $DIR$FILE
   fi
