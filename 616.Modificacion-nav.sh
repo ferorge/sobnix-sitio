@@ -19,10 +19,10 @@ SUB_DIR=''
 timestamp=$(date +%F_%H.%M.%S)
 
 ## __Respaldo de configuración__
-echo -e "$CYAN Respaldando configuración $DEFAULT"
+# echo -e "$CYAN Respaldando configuración $DEFAULT"
 DIR='./md/'
 FILE='21-navbar.md'
-cp $DIR$FILE /var/local/backups/$FILE.$timestamp
+# cp $DIR$FILE /var/local/backups/$FILE.$timestamp
 
 ## __Modificación de configuración__
 echo -e "$CYAN Modificando configuración $DEFAULT"
@@ -32,10 +32,8 @@ echo '' > $DIR$FILE
 
 # Recorre el document root buscando sitios y generando enlaces
 SITES=$(find $DR -name "*0*.md" | sort ) #| grep -v -e index -e users)
-echo $SITES
 for SITE in $SITES
 do
-    echo $SITE
     NAME_SITE=$(echo $SITE | cut -d'/' -f 4 | cut -d '.' -f 2)
     # Verifica que NAME_SITE no esté vacío
     if [ ! -z "$NAME_SITE" ]

@@ -16,7 +16,7 @@ source ./540.Creacion-textos.sh
 source ./616.Modificacion-nav.sh
 
 ## __Creación de menú del sitio__
-618.Modificacion-aside.sh
+source ./618.Modificacion-aside.sh
 
 ## __Creación de sitio__
 md_files=$(find ./md/articles/ -name '*.md' | sort)
