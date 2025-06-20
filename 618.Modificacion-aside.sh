@@ -20,12 +20,12 @@ SUB_DIR=''
 timestamp=$(date +%F_%H.%M.%S)
 
 ## __Respaldo de configuración__                             
-echo -e "$CYAN Respaldando configuración $DEFAULT"
+# echo -e "$CYAN Respaldando configuración $DEFAULT"
 DIR='./md/'
 FILE='31-menu.md'
 
 ## __Modificación de configuración__
-echo -e "$CYAN Modificando configuración $DEFAULT"
+# echo -e "$CYAN Modificando configuración $DEFAULT"
 
 # Borra el contenido de 31-menu.md
 echo '' > $DIR$FILE

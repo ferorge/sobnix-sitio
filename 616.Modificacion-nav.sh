@@ -25,7 +25,7 @@ FILE='21-navbar.md'
 # cp $DIR$FILE /var/local/backups/$FILE.$timestamp
 
 ## __Modificación de configuración__
-echo -e "$CYAN Modificando configuración $DEFAULT"
+# echo -e "$CYAN Modificando configuración $DEFAULT"
 
 # Borra el contenido de 21-navbar.md
 echo '' > $DIR$FILE
