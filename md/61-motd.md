@@ -1,0 +1,1 @@
+De cuando en cuando, en un intervalo de años, modificamos la GPL: a veces para clarificarla, a veces para autorizar ciertos tipos de uso antes no permitidos, y a veces para hacer más estricto algún requisito.
