@@ -14,6 +14,7 @@ Para ejecutar los guiones es necesario instalar las siguientes dependencias:
 ## __Procedimiento__
 1. Clonar el repositorio en la raíz del sitio.
 ```
+cd /var/www/
 umask 022
 git clone https://git.sobnix.dynv6.net/ferorge/sobnix-sitio
 umask 077
