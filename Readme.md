@@ -13,6 +13,12 @@ Para ejecutar los guiones es necesario instalar las siguientes dependencias:
 
 ## __Procedimiento__
 1. Clonar el repositorio en la raíz del sitio.
+```
+umask 022
+git clone https://git.sobnix.dynv6.net/ferorge/sobnix-sitio
+umask 077
+chown -R www-data:www-data /var/www/sobnix-sitio
+```
 2. Ejecutar el guión _620.Creacion-sitio.sh_ obteniendo:
 	* Metadatos con la fecha de ejecución.
 	* Textos estándar de encabezado.
