@@ -94,7 +94,7 @@ EOF
 toilet -f mini -k '    Usuaries' > $DIR'62-usuaries.md'
 
 cat <<EOF > $DIR'63-userlist.md'
-$(grep ':100:' /etc/passwd | grep -v ':x:100:' | cut -d ':' -f 1 | sort | xargs printf "\[\~%s]:(https://$FQDN/\~%s/)  \n")
+$(grep ':100:' /etc/passwd | grep -v ':x:100:' | cut -d ':' -f 1 | sort | xargs -I {} printf "[~{}](https://$FQDN/~{}/)  \n")
 EOF
 
 cat <<EOF > $DIR'.70-footer.mmd'
