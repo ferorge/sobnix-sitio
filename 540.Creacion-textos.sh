@@ -99,9 +99,6 @@ EOF
 
 cat <<EOF > $DIR'.70-footer.mmd'
 
-{{./71-licencia.md}}
-___
-
 {{./72-pie.md}}
 ___
 

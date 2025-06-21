@@ -45,19 +45,22 @@ do
     name_site=$(echo $file | cut -d '.' -f 3 )
 
     ### Obtención de nombre para licencia.
-    name=$(echo $name_site | cut -d '.' -f 2 | sed 's/_/ /g')	
+    ###### Licencia agregada a cada artículo.
+    # name=$(echo $name_site | cut -d '.' -f 2 | sed 's/_/ /g')	
 
-    ### Indicación de artículo en la licencia
-    sed -i "s/Documento/$name/g" md/71-licencia.md
+    ### Indicación de artículo en la licencia.
+    ###### Licencia agregada a cada artículo.
+    # sed -i "s/Documento/$name/g" md/71-licencia.md
 
-    ### Unión de meta con plantilla
+    ### Unión de meta con plantilla.
     cat md/.00-meta.mmd md/.template.md > md/.work.md
 
-    ### Conversión de md a html
+    ### Conversión de md a html.
     multimarkdown -o public/$dir_site/$name_site.html md/.work.md
 
-    ### Quitar artículo de licencia
-    sed -i "s/$name/Documento/g" md/71-licencia.md
+    ### Quitar artículo de licencia.
+    ###### Licencia agregada a cada artículo.
+    # sed -i "s/$name/Documento/g" md/71-licencia.md
 done
 
 ## __Eliminación de fichero de trabajo__
