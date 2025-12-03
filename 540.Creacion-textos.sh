@@ -41,6 +41,7 @@ KeyWords: servidor, publico, libre, pubnix, auto alojado, soberano
 css: lynx.css
 Quotes Language: es
 Base Header Level: 1
+
 EOF
 
 cat <<EOF > $DIR'.10-header.mmd'
@@ -67,6 +68,14 @@ cat <<EOF > $DIR'13-eslogan.md'
 Servidor + Publico | Libre > Pubnix
   
 Pubnix | Auto alojado > Soberano
+EOF
+
+cat <<EOF > $DIR'.20-nav.mmd'
+{{./21-navbar.md}}
+EOF
+
+cat <<EOF > $DIR'.30-aside.mmd'
+{{./31-menu.md}}
 EOF
 
 cat <<EOF > $DIR'.40-main.mmd'
