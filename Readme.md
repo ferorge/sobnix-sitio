@@ -16,7 +16,7 @@ Para ejecutar los guiones es necesario instalar las siguientes dependencias:
 ```
 cd /var/www/
 umask 022
-git clone https://git.sobnix.dynv6.net/ferorge/sobnix-sitio
+git clone https://git.sobnix.ar/ferorge/sobnix-sitio
 umask 077
 chown -R www-data:www-data /var/www/sobnix-sitio
 ```
