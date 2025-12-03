@@ -1,1 +1,1 @@
-GNU sirve como ejemplo de inspiración y como bandera para conminar a otros a unirse a nosotros en el acto de compartir.
+La librería no libre que opera en un sistema operativo libre constituye una trampa para los desarrolladores de software libre.
