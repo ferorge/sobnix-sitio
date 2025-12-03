@@ -1,3 +1,4 @@
 *.log
 *~
 00.plantilla.sh
+es/old/*
