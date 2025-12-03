@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 
 # Creación de textos
 
@@ -20,21 +20,21 @@ DATE=$(date +%F)
 YEAR=$(date +%Y)
 
 ## __Respaldo de configuración__
-#echo -e "$CYAN Respaldando configuración $DEFAULT"
-DIR='./md/'
+logger '540 | Respaldando configuración.'
+DIR='./es/'
 #FILE="*.md"
 #cp $DIR$FILE /var/local/backups/$FILE.$timestamp
 
 ## __Modificación de configuración__
-#echo -e "$CYAN Modificando configuración $DEFAULT"
+logger '540 | Modificando configuración.'
 
 DIV='_______________________________________________'
 
-cat <<EOF > $DIR'.00-meta.mmd'
+cat <<EOF > $DIR'.01-head.mmd'
 Language: es
 Author: ~ferorge
 Email: ferorge@texto-plano.xyz
-Affiliation: https://sobnix.dynv6.net
+Affiliation: https://$FQDN
 Date: $DATE
 copyright: $YEAR, ~ferorge, CC BY-SA 4.0.
 KeyWords: servidor, publico, libre, pubnix, auto alojado, soberano
@@ -130,7 +130,7 @@ vrms |fold -w 64 | sed "2,$ s/^/>  /g" > $DIR'73-vrms.md'
 
 logger "textos modificados por $USER"
 
-# if [ $UID == 0 ]; then
-#   chown root:staff /var/gopher/.*.md
-#   chmod 0664 /var/gopher/.*.md
-# fi
+if [ $UID == 0 ]; then
+  chown root:staff $DIR*.md
+  chmod 0664 $DIR*.md
+fi
