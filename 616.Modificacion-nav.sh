@@ -14,18 +14,18 @@
 
 ## __Configuración de variables__
 FQDN=$(hostname -f)
-DR='./md/articles/'
+DR='./es/articles/'
 SUB_DIR=''
 timestamp=$(date +%F_%H.%M.%S)
 
 ## __Respaldo de configuración__
-# echo -e "$CYAN Respaldando configuración $DEFAULT"
-DIR='./md/'
+logger '616 | Respaldando configuración.'
+DIR='./es/'
 FILE='21-navbar.md'
 # cp $DIR$FILE /var/local/backups/$FILE.$timestamp
 
 ## __Modificación de configuración__
-# echo -e "$CYAN Modificando configuración $DEFAULT"
+logger '616 | Modificando configuración.'
 
 # Borra el contenido de 21-navbar.md
 echo '' > $DIR$FILE
