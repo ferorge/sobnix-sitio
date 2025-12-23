@@ -65,9 +65,9 @@ toilet -f ivrit -k "       $HOST" > $DIR'12-cartel.md'
 
 cat <<EOF > $DIR'13-eslogan.md'
   
-Servidor + Publico | Libre > Pubnix
+## Servidor + Publico | Libre > Pubnix
   
-Pubnix | Auto alojado > Soberano
+## Pubnix | Auto alojado > Soberano
 EOF
 
 cat <<EOF > $DIR'.20-nav.mmd'
