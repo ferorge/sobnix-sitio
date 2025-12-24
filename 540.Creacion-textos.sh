@@ -88,7 +88,9 @@ EOF
 
 cat <<EOF > $DIR'.50-section.mmd'
 
+<article>
 {{./60-article.md}}
+</article>
 
 EOF
 
