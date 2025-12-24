@@ -20,7 +20,7 @@ timestamp=$(date +%F_%H.%M.%S)
 logger "542 | Respaldando configuración."
 DIR='./es/'
 FILE=".02-body.mmd"
-cp $DIR$FILE /var/local/backups/$FILE.$timestamp
+# cp $DIR$FILE /var/local/backups/$FILE.$timestamp
 
 ## __Modificación de configuración__
 logger "542 | Modificando configuración."
