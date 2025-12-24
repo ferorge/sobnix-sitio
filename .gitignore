@@ -1,6 +1,7 @@
 *.log
 *~
 00.plantilla.sh
+public/*.html
 es/old/*
 es/60-article.md
 es/61-motd.md
