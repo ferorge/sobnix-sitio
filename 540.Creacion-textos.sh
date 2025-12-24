@@ -98,7 +98,8 @@ cat <<EOF > $DIR'60-article.md'
 
 EOF
 
-/usr/games/fortune rms2 > $DIR'61-motd.md'
+## Ruta afuera del document root.
+# /usr/games/fortune rms2 > $DIR'61-motd.md'
 
 toilet -f mini -k '    Usuaries' > $DIR'62-usuaries.md'
 
