@@ -40,7 +40,7 @@ do
     then
 	LINK=$(printf "https://$FQDN/$NAME_SITE.html")
 	NAME=$(echo $NAME_SITE | sed 's/_/ /g')
-      echo "- [${NAME^}]($LINK)" >> $DIR$FILE
+      echo "* [${NAME^}]($LINK)" >> $DIR$FILE
     fi
 done
 
