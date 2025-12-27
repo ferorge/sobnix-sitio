@@ -1,0 +1,71 @@
+#!/usr/bin/env bash
+
+# Creación de la cápsula
+
+## __Autoría y licencia__
+###### Creación de la cápsula © 2025 por \~ferorge
+###### [ferorge@texto-plano.xyz](mailto:ferorge@texto-plano.xyz).
+###### Licenciado bajo GNU Public License version 3.
+###### Para ver una copia de esta licencia, visite:
+###### [GPLv3]:(https://www.gnu.org/licenses/gpl.txt)
+
+## __Creación de textos__
+source ./540.Creacion-textos.sh
+
+## __Creación de barra de navegación__
+source ./616.Modificacion-nav.sh
+
+## __Creación de menú de la cápsula__
+source ./618.Modificacion-aside.sh
+
+## __Creación de plantilla de la cápsula__
+# source ./542.Creacion-plantilla-md.sh
+
+## __Creación de la cápsula__
+md_files=$(find ./es/articles/ -name '*.md' | sort)
+
+umask 022
+for file in $md_files
+do
+    ### Obtención de artículo sin metadatos.
+    sed -n '/^$/,$ p' $file > es/60-article.md
+
+    ### Obtención del nombre para el directorio.
+    dir_site=$(echo $file | cut -d '/' -f 4 )
+
+    ### Evalúa si es fichero o directorio.
+    if [[ $dir_site =~ ".md" ]]; then
+	dir_site=''
+    else
+        ### Creación de subdirectorios.
+        mkdir -p ~/public_gemini/test/$dir_site
+    fi
+
+    ### Obtención de nombre para fichero.
+    name_site=$(echo $file | cut -d '.' -f 3 )
+
+    ### Definición de nombre de cápsula.
+    gmi=gmi/$dir_site/$name_site.gmi
+
+    ### Conversión de md a html.
+    multimarkdown -t mmd -o $gmi es/.gemini.mmd
+
+    ### Sustitución de https a gemini.
+    sed -i 's|https://sobnix.ar/|gemini://sobnix.ar/|g' $gmi
+    sed -i 's/.html/.gmi/g' $gmi
+
+    ### Conversión a gemtext.
+    #### Sustitución de enlaces [Sitio](enlace)'
+    sed -i -E 's/\[(.+)\]\((.+)\)/=> \2 \1/' $gmi
+
+    ### Adecuación de menú.
+    sed -i 's/    \* =>/=>/g' $gmi
+
+    ### Adecuación de navbar.
+    sed -i 's/* =>/=>/g' $gmi
+
+    ### Sustituir doble linea vacia por una.
+    sed -i '/^$/N;/\n$/D' $gmi
+
+done
+umask 077
