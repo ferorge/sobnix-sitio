@@ -28,19 +28,21 @@ DIR='./es/'
 ## __Modificación de configuración__
 logger '540 | Modificando configuración.'
 
-DIV='_______________________________________________________________________________'
+DIV=
+'_______________________________________________________________________________'
 
 cat <<EOF > $DIR'.01-head.mmd'
 Language: es
+Quotes Language: es
+Base Header Level: 1
+css: lynx.css
 Author: ~ferorge
 Email: ferorge@texto-plano.xyz
 Affiliation: https://$FQDN
 Date: $DATE
 copyright: $YEAR, ~ferorge, CC BY-SA 4.0.
 KeyWords: servidor, publico, libre, pubnix, auto alojado, soberano
-css: lynx.css
-Quotes Language: es
-Base Header Level: 1
+Title: Titulo | Pubnix soberano
 
 EOF
 
