@@ -92,12 +92,9 @@ cat <<EOF > $DIR'60-article.md'
 $(echo $DIV)
 EOF
 
-cat <<EOF > $DIR'69-index.mmd'
-{{./62-sobnix.md}}
-{{./64-motd.md}}
-{{./66-usuaries.md}}
-{{./68-userlist.md}}
-{{./71-licencia.md}}
+cat <<EOF > $DIR'62-sobnix.md'
+Servidor Trisquel soberano.
+$(echo $DIV)
 EOF
 
 cat <<EOF > $DIR'64-motd.md'
@@ -113,6 +110,14 @@ EOF
 cat <<EOF > $DIR'68-userlist.md'
 $(grep ':100:' /etc/passwd | grep -v ':x:100:' | cut -d ':' -f 1 | sort | xargs -I {} printf "[~{}](https://$FQDN/~{}/)  \n")
 $(echo $DIV)
+EOF
+
+cat <<EOF > $DIR'69-index.mmd'
+{{./62-sobnix.md}}
+{{./64-motd.md}}
+{{./66-usuaries.md}}
+{{./68-userlist.md}}
+{{./71-licencia.md}}
 EOF
 
 cat <<EOF > $DIR'.70-footer.mmd'
