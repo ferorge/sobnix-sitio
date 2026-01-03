@@ -146,6 +146,7 @@ Para ver una copia de esta licencia, visite CC BY-SA 4.0.
 EOF
 
 cat <<EOF > $DIR'72-pie.md'
+
 $HOST | Pubnix soberano | __En línea desde: $(uptime -s)__
 $(echo $DIV)
 EOF
