@@ -113,6 +113,7 @@ $(echo $DIV)
 EOF
 
 cat <<EOF > $DIR'69-index.mmd'
+$(sed s/Titulo/Sobnix/g .01-head.mmd)
 {{./62-sobnix.md}}
 {{./64-motd.md}}
 {{./66-usuaries.md}}
