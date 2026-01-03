@@ -145,7 +145,7 @@ vrms |fold -w 57 | sed "2,$ s/^/>  /g" > $DIR'73-vrms.md'
 echo $DIV >> $DIR'73-vrms.md'
 sed -i '1d' $DIR'73-vrms.md'
 
-multimarkdown -t mmd -o ./es/articles/10.sobnix.md $DIR'69-index.mmd'
+multimarkdown -t mmd -o ./es/articles/10.Sobnix.md $DIR'69-index.mmd'
 
 logger "textos modificados por $USER"
 
