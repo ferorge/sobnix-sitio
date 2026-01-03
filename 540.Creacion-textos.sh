@@ -46,6 +46,7 @@ Title: Titulo | Pubnix soberano
 EOF
 
 cat <<EOF > $DIR'.10-header.mmd'
+
 {{./12-cartel.md}}
 {{./13-eslogan.md}}
 EOF
@@ -93,7 +94,9 @@ $(echo $DIV)
 EOF
 
 cat <<EOF > $DIR'62-sobnix.md'
-Servidor Trisquel soberano.
+# Sobnix
+
+__Servidor Trisquel soberano.__
 $(echo $DIV)
 EOF
 
