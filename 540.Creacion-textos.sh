@@ -28,8 +28,7 @@ DIR='./es/'
 ## __Modificación de configuración__
 logger '540 | Modificando configuración.'
 
-DIV=
-'_______________________________________________________________________________'
+DIV='_______________________________________________________________________________'
 
 cat <<EOF > $DIR'.01-head.mmd'
 Language: es
@@ -90,15 +89,30 @@ EOF
 
 cat <<EOF > $DIR'60-article.md'
 ### Artículo
+$(echo $DIV)
 EOF
 
-## Ruta afuera del document root.
-# /usr/games/fortune rms2 > $DIR'61-motd.md'
+cat <<EOF > $DIR'69-index.mmd'
+{{./62-sobnix.md}}
+{{./64-motd.md}}
+{{./66-usuaries.md}}
+{{./68-userlist.md}}
+{{./71-licencia.md}}
+EOF
 
-toilet -f mini -k '    Usuaries' > $DIR'62-usuaries.md'
+cat <<EOF > $DIR'64-motd.md'
+$(fortune rms2 | fold -s)
+$(echo $DIV)
+EOF
 
-cat <<EOF > $DIR'63-userlist.md'
+cat <<EOF > $DIR'66-usuaries.md'
+$(toilet -f mini -k '    Usuaries')
+$(echo $DIV)
+EOF
+
+cat <<EOF > $DIR'68-userlist.md'
 $(grep ':100:' /etc/passwd | grep -v ':x:100:' | cut -d ':' -f 1 | sort | xargs -I {} printf "[~{}](https://$FQDN/~{}/)  \n")
+$(echo $DIV)
 EOF
 
 cat <<EOF > $DIR'.70-footer.mmd'
@@ -130,6 +144,8 @@ EOF
 vrms |fold -w 57 | sed "2,$ s/^/>  /g" > $DIR'73-vrms.md'
 echo $DIV >> $DIR'73-vrms.md'
 sed -i '1d' $DIR'73-vrms.md'
+
+multimarkdown -t mmd -o ./es/articles/10.sobnix.md $DIR'69-index.mmd'
 
 logger "textos modificados por $USER"
 
