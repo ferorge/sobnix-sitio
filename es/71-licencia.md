@@ -1,7 +1,7 @@
 
 ### Autoría y licencia
 
-Documento © 2025 por \~ferorge
+Documento © 2026 por \~ferorge
 [ferorge@texto-plano.xyz](mailto:ferorge@texto-plano.xyz).
 
 ![Licenciado bajo CC BY-SA 4.0.][img]
