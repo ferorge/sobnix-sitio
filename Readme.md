@@ -12,30 +12,23 @@ Para ejecutar los guiones es necesario instalar las siguientes dependencias:
 * multimarkdown v6
 
 ## __Procedimiento__
-1. Clonar el repositorio en la raíz del sitio.
+1. Clonar el repositorio en /var/local/ o en la ruta de tu preferencia.  
 ```
-cd /var/www/
+cd /var/local/
 umask 022
 git clone https://git.sobnix.ar/ferorge/sobnix-sitio
 umask 077
-chown -R www-data:www-data /var/www/sobnix-sitio
 ```
-2. Ejecutar el guión _620.Creacion-sitio.sh_ obteniendo:
-	* Metadatos con la fecha de ejecución.
-	* Textos estándar de encabezado.
-	* Textos estándar de pie de página.
-	* Barra de navegación.
-	* Menú del sitio.
-	* Artículos convertidos a html.
-3. Apuntar el servidor web al directorio _public/_.
+2. Editar el guión _650.Instalar-html.sh_ indicando la ruta al document root.  
+3. Ejecutar el guión _650.Instalar-html.sh_.  
+4. Apuntar el servidor web al directorio _public/_.  
 
 ## __Sitios incluídos__
 1. Inicio.
+2. Filosofía.
 	1. Visión.
 	2. Misión.
 	3. Valores.
-	4. Listado de usuarios.
-2. Novedades.
 3. Servicios.
 4. Código de conducta.
 	1. Politica de diversidad.
@@ -44,6 +37,7 @@ chown -R www-data:www-data /var/www/sobnix-sitio
 	4. Politica de privacidad.
 	5. Politica de seguridad.
 5. Unite.
+6. Novedades.
 
 ## __Encabezado__
 * Cartel.
