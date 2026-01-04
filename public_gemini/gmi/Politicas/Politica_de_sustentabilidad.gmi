@@ -1,0 +1,73 @@
+
+                    _             _       
+        ___   ___  | |__   _ __  (_)__  __
+       / __| / _ \ | '_ \ | '_ \ | |\ \/ /
+       \__ \| (_) || |_) || | | || | >  < 
+       |___/ \___/ |_.__/ |_| |_||_|/_/\_\
+                                          
+_______________________________________________________________________________
+
+## Servidor + Publico | Libre > Pubnix
+  
+## Pubnix | Auto alojado > Soberano
+_______________________________________________________________________________
+
+=> gemini://sobnix.ar/Sobnix.gmi Sobnix
+=> gemini://sobnix.ar/Filosofia.gmi Filosofia
+=> gemini://sobnix.ar/Servicios.gmi Servicios
+=> gemini://sobnix.ar/Codigo_de_conducta.gmi Codigo de conducta
+=> gemini://sobnix.ar/Unite.gmi Unite
+=> gemini://sobnix.ar/Novedades.gmi Novedades
+
+* Politicas
+=> gemini://sobnix.ar/Politicas/Politica_de_diversidad.gmi Politica de diversidad
+=> gemini://sobnix.ar/Politicas/Politica_de_integridad.gmi Politica de integridad
+=> gemini://sobnix.ar/Politicas/Politica_de_sustentabilidad.gmi Politica de sustentabilidad
+=> gemini://sobnix.ar/Politicas/Politica_de_privacidad.gmi Politica de privacidad
+=> gemini://sobnix.ar/Politicas/Politica_de_seguridad.gmi Politica de seguridad
+
+# Política de sustentabilidad
+
+### Objetivo
+
+Establecer un marco respetuoso del medio ambiente que guíe el comportamiento  
+de las personas usuarias y administradoras de _Sobnix_, promoviendo una  
+cultura del uso eficiente de los recursos, la reducción de residuos digitales  
+y la actualización sostenible de hardware y software.  
+
+### Contrato
+
+Las personas usuarias y administradoras de _Sobnix_ deben:  
+1. Utilizar los recursos del Sistema (energía, almacenamiento, ancho de  
+banda, etc.) de manera eficiente y responsable.  
+2. Gestionar sus archivos y datos de manera que minimice el almacenamiento  
+innecesario y promueva la reutilización o reciclaje de recursos digitales  
+cuando sea posible.  
+
+Las personas administradoras de _Sobnix_ deben:  
+1. Implementar prácticas sostenibles en la actualización y renovación del  
+hardware y software, promoviendo la reducción de residuos electrónicos.  
+_______________________________________________________________________________
+
+### Autoría y licencia
+
+Política de sustentabilidad © 2024 por \~ferorge 
+=> mailto:ferorge@texto-plano.xyz ferorge@texto-plano.xyz.
+
+![Licenciado bajo CC BY-SA 4.0.][img]
+[img]: https://mirrors.creativecommons.org/presskit/buttons/88x31/png/by-sa.png
+"CC BY-SA 4.0 International"
+
+Para ver una copia de esta licencia, visite CC BY-SA 4.0.
+=> https://creativecommons.org/licenses/by-sa/4.0/deed.es CC BY-SA 4.0
+_______________________________________________________________________________
+
+sobnix | Pubnix soberano | __En línea desde: 2026-01-02 08:07:52__
+_______________________________________________________________________________
+
+>  No non-free or contrib packages installed on sobnix.ar!  
+>  You have completed the first step to enlightenment.
+_______________________________________________________________________________
+
+EOF
+

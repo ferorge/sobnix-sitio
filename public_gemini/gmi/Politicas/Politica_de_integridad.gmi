@@ -1,0 +1,92 @@
+
+                    _             _       
+        ___   ___  | |__   _ __  (_)__  __
+       / __| / _ \ | '_ \ | '_ \ | |\ \/ /
+       \__ \| (_) || |_) || | | || | >  < 
+       |___/ \___/ |_.__/ |_| |_||_|/_/\_\
+                                          
+_______________________________________________________________________________
+
+## Servidor + Publico | Libre > Pubnix
+  
+## Pubnix | Auto alojado > Soberano
+_______________________________________________________________________________
+
+=> gemini://sobnix.ar/Sobnix.gmi Sobnix
+=> gemini://sobnix.ar/Filosofia.gmi Filosofia
+=> gemini://sobnix.ar/Servicios.gmi Servicios
+=> gemini://sobnix.ar/Codigo_de_conducta.gmi Codigo de conducta
+=> gemini://sobnix.ar/Unite.gmi Unite
+=> gemini://sobnix.ar/Novedades.gmi Novedades
+
+* Politicas
+=> gemini://sobnix.ar/Politicas/Politica_de_diversidad.gmi Politica de diversidad
+=> gemini://sobnix.ar/Politicas/Politica_de_integridad.gmi Politica de integridad
+=> gemini://sobnix.ar/Politicas/Politica_de_sustentabilidad.gmi Politica de sustentabilidad
+=> gemini://sobnix.ar/Politicas/Politica_de_privacidad.gmi Politica de privacidad
+=> gemini://sobnix.ar/Politicas/Politica_de_seguridad.gmi Politica de seguridad
+
+# Política de integridad
+
+### Objetivo
+
+Establecer un marco ético y moral claro que guíe el comportamiento de las  
+personas usuarias y administradoras de _Sobnix_, promoviendo una cultura de  
+honestidad, responsabilidad, respeto y transparencia.  
+
+### Contrato
+
+Las personas usuarias y administradoras de _Sobnix_ deben:  
+1. Utilizar _Sobnix_ exclusivamente para fines autorizados y legítimos, ali-  
+neados con el código de conducta.  
+2. Actuar con honestidad y transparencia. La falsificación de identidad, la  
+suplantación de identidad, o el engaño para obtener acceso no autorizado  
+están estrictamente prohibidos.  
+3. Informar cualquier uso no autorizado o inapropiado de _Sobnix_ a las  
+personas administradoras designadas inmediatamente.  
+4. Evitar participar en proyectos o actividades a través de _Sobnix_ en  
+beneficio financiero propio o de terceros, sin la debida autorización y  
+transparencia.  
+5. Declarar por escrito cualquier potencial o real conflicto de interés a la  
+administración de _Sobnix_ tan pronto como sean conscientes de la situación.  
+6. Considerar un conflicto de interés cualquier situación en la que sus  
+intereses personales, profesionales o financieros puedan influir indebidamente  
+en la toma de decisiones comprometiendo la imparcialidad, la objetividad, o la  
+integridad de _Sobnix_.  
+
+Las personas administradoras de _Sobnix_ deben:  
+1. Evaluar las declaraciones de conflicto de interés recibidas.  
+2. Determinar la necesidad de medidas correctivas, como la recusación a  
+actividades específicas de las personas usuarias, la implementación de  
+medidas de seguridad adicionales o la revocación del acceso a _Sobnix_.  
+3. Aceptar donaciones solo cuando estén en consonancia con el Código de  
+Conducta.  
+4. Rechazar las donaciones cuando condicionen o influyan en la toma de  
+decisiones o comprometan la independencia y objetividad de las personas.  
+4. Mantener un registro público de todas las donaciones aceptadas, incluyendo  
+el monto, la fuente y opcionalmente su propósito.  
+5. Registrar claramente las razones en caso de denegación.  
+_______________________________________________________________________________
+
+### Autoría y licencia
+
+Política de integridad © 2024 por \~ferorge 
+=> mailto:ferorge@texto-plano.xyz ferorge@texto-plano.xyz.
+
+![Licenciado bajo CC BY-SA 4.0.][img]
+[img]: https://mirrors.creativecommons.org/presskit/buttons/88x31/png/by-sa.png
+"CC BY-SA 4.0 International"
+
+Para ver una copia de esta licencia, visite CC BY-SA 4.0.
+=> https://creativecommons.org/licenses/by-sa/4.0/deed.es CC BY-SA 4.0
+_______________________________________________________________________________
+
+sobnix | Pubnix soberano | __En línea desde: 2026-01-02 08:07:52__
+_______________________________________________________________________________
+
+>  No non-free or contrib packages installed on sobnix.ar!  
+>  You have completed the first step to enlightenment.
+_______________________________________________________________________________
+
+EOF
+

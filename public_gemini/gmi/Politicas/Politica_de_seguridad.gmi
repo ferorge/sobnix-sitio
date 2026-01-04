@@ -1,0 +1,109 @@
+
+                    _             _       
+        ___   ___  | |__   _ __  (_)__  __
+       / __| / _ \ | '_ \ | '_ \ | |\ \/ /
+       \__ \| (_) || |_) || | | || | >  < 
+       |___/ \___/ |_.__/ |_| |_||_|/_/\_\
+                                          
+_______________________________________________________________________________
+
+## Servidor + Publico | Libre > Pubnix
+  
+## Pubnix | Auto alojado > Soberano
+_______________________________________________________________________________
+
+=> gemini://sobnix.ar/Sobnix.gmi Sobnix
+=> gemini://sobnix.ar/Filosofia.gmi Filosofia
+=> gemini://sobnix.ar/Servicios.gmi Servicios
+=> gemini://sobnix.ar/Codigo_de_conducta.gmi Codigo de conducta
+=> gemini://sobnix.ar/Unite.gmi Unite
+=> gemini://sobnix.ar/Novedades.gmi Novedades
+
+* Politicas
+=> gemini://sobnix.ar/Politicas/Politica_de_diversidad.gmi Politica de diversidad
+=> gemini://sobnix.ar/Politicas/Politica_de_integridad.gmi Politica de integridad
+=> gemini://sobnix.ar/Politicas/Politica_de_sustentabilidad.gmi Politica de sustentabilidad
+=> gemini://sobnix.ar/Politicas/Politica_de_privacidad.gmi Politica de privacidad
+=> gemini://sobnix.ar/Politicas/Politica_de_seguridad.gmi Politica de seguridad
+
+# Política de seguridad
+
+### Contrato
+
+Para la seguridad de las personas usuarias, este servidor Linux público está  
+sujeto a estrictas políticas y medidas de seguridad diseñadas para proteger  
+sus datos y garantizar el cumplimiento legal y legislativo.  
+El alcance incluye todos los ordenadores vinculados y el acceso a Internet.  
+A este servidor sólo acceden personas usuarias autorizados.  
+Debe obtener el consentimiento explícito del administrador antes de intentar  
+conectarse a este servidor.  
+Cualquier uso no autorizado de este sistema está prohibido y puede  
+considerarse un acto ilegal.  
+Cualquier evidencia de intrusión, acto delictivo, acceso no autorizado o  
+intento de eludir las medidas de seguridad puede ser penalizado.  
+_______________________________________________________________________________
+
+__Advertencia: al iniciar sesión en este sistema, usted reconoce y__  
+__acepta el seguimiento y registro de actividades.__  
+
+_______________________________________________________________________________
+
+El seguimiento y registro de actividades es continuo y es realiado únicamente  
+con el objetivo de auditar y garantizar la seguridad de las personas usuarias  
+y sistemas.  
+No se utiliza para espionaje, seguimiento ni otra finalidad distinta a la  
+mencionada.  
+_______________________________________________________________________________
+
+### Privacidad y protección de datos
+
+Las personas usuarias y administradores de este servidor se comprometen a  
+hacer cumplir la política de seguridad y las leyes y normativas aplicables,  
+protegiendo la privacidad y garantizando la confidencialidad de los datos de  
+todos las personas usuarias.  
+Los datos son privados, su uso está restringido y cada persona usuaria es  
+propietaria de los suyos.  
+Los datos se almacenan de forma segura y se prohíbe el acceso no autorizado.  
+Sin embargo, no podemos garantizar la seguridad de los datos transmitidos a  
+través de Internet y le recomendamos que tenga cuidado al transmitir  
+información confidencial.  
+_______________________________________________________________________________
+
+### Buenas prácticas de seguridad
+
+1. Utilice contraseñas seguras y cámbielas periódicamente.  
+2. No compartas tus credenciales de acceso con nadie.  
+3. Desconecta o bloquea tu sesión cuando no la estés usando.  
+4. Evite acceder a enlaces sospechosos.  
+5. Verificar la autenticidad de los sitios web antes de ingresar  
+información confidencial.  
+6. Almacene datos confidenciales de forma segura.  
+7. Eliminar archivos temporales.  
+_______________________________________________________________________________
+
+__Gracias por aceptar estos términos y condiciones y por tu__  
+__cooperación para mantener la seguridad de todos nosotros.__
+_______________________________________________________________________________
+
+### Autoría y licencia
+
+Política de seguridad © 2025 por \~ferorge
+=> mailto:ferorge@texto-plano.xyz ferorge@texto-plano.xyz.
+
+![Licenciado bajo CC BY-SA 4.0.][img]
+[img]: https://mirrors.creativecommons.org/presskit/buttons/88x31/png/by-sa.png
+"CC BY-SA 4.0 International"
+
+Para ver una copia de esta licencia, visite CC BY-SA 4.0.
+=> https://creativecommons.org/licenses/by-sa/4.0/deed.es CC BY-SA 4.0
+_______________________________________________________________________________
+
+sobnix | Pubnix soberano | __En línea desde: 2026-01-02 08:07:52__
+_______________________________________________________________________________
+
+>  No non-free or contrib packages installed on sobnix.ar!  
+>  You have completed the first step to enlightenment.
+_______________________________________________________________________________
+
+EOF
+

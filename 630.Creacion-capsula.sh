@@ -24,6 +24,10 @@ source ./618.Modificacion-aside.sh
 ## __Creación de la cápsula__
 md_files=$(find ./es/articles/ -name '*.md' | sort)
 
+## __Creación de directorio raíz__
+DIR=public_gemini/gmi/
+mkdir -p $DIR
+
 umask 022
 for file in $md_files
 do
@@ -33,39 +37,37 @@ do
     ### Obtención del nombre para el directorio.
     dir_site=$(echo $file | cut -d '/' -f 4 )
 
-    ### Evalúa si es fichero o directorio.
-    if [[ $dir_site =~ ".md" ]]; then
-	dir_site=''
-    else
-        ### Creación de subdirectorios.
-        mkdir -p ~/public_gemini/test/$dir_site
-    fi
-
     ### Obtención de nombre para fichero.
     name_site=$(echo $file | cut -d '.' -f 3 )
 
     ### Definición de nombre de cápsula.
-    gmi=gmi/$dir_site/$name_site.gmi
-
+    #### Evalúa si es fichero o directorio.
+    if [[ $dir_site =~ ".md" ]]; then
+        gmi=$name_site.gmi
+    else
+        gmi=$dir_site/$name_site.gmi
+        ### Creación de subdirectorios.
+        mkdir -p $DIR$dir_site
+    fi
     ### Conversión de md a html.
-    multimarkdown -t mmd -o $gmi es/.gemini.mmd
+    multimarkdown -t mmd -o $DIR$gmi es/.gemini.mmd
 
     ### Sustitución de https a gemini.
-    sed -i 's|https://sobnix.ar/|gemini://sobnix.ar/|g' $gmi
-    sed -i 's/.html/.gmi/g' $gmi
+    sed -i 's|https://sobnix.ar/|gemini://sobnix.ar/|g' $DIR$gmi
+    sed -i 's/.html/.gmi/g' $DIR$gmi
 
     ### Conversión a gemtext.
     #### Sustitución de enlaces [Sitio](enlace)'
-    sed -i -E 's/\[(.+)\]\((.+)\)/=> \2 \1/' $gmi
+    sed -i -E 's/\[(.+)\]\((.+)\)/=> \2 \1/' $DIR$gmi
 
     ### Adecuación de menú.
-    sed -i 's/    \* =>/=>/g' $gmi
+    sed -i 's/    \* =>/=>/g' $DIR$gmi
 
     ### Adecuación de navbar.
-    sed -i 's/* =>/=>/g' $gmi
+    sed -i 's/* =>/=>/g' $DIR$gmi
 
     ### Sustituir doble linea vacia por una.
-    sed -i '/^$/N;/\n$/D' $gmi
+    sed -i '/^$/N;/\n$/D' $DIR$gmi
 
 done
 umask 077

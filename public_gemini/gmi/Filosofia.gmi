@@ -1,0 +1,88 @@
+
+                    _             _       
+        ___   ___  | |__   _ __  (_)__  __
+       / __| / _ \ | '_ \ | '_ \ | |\ \/ /
+       \__ \| (_) || |_) || | | || | >  < 
+       |___/ \___/ |_.__/ |_| |_||_|/_/\_\
+                                          
+_______________________________________________________________________________
+
+## Servidor + Publico | Libre > Pubnix
+  
+## Pubnix | Auto alojado > Soberano
+_______________________________________________________________________________
+
+=> gemini://sobnix.ar/Sobnix.gmi Sobnix
+=> gemini://sobnix.ar/Filosofia.gmi Filosofia
+=> gemini://sobnix.ar/Servicios.gmi Servicios
+=> gemini://sobnix.ar/Codigo_de_conducta.gmi Codigo de conducta
+=> gemini://sobnix.ar/Unite.gmi Unite
+=> gemini://sobnix.ar/Novedades.gmi Novedades
+
+* Politicas
+=> gemini://sobnix.ar/Politicas/Politica_de_diversidad.gmi Politica de diversidad
+=> gemini://sobnix.ar/Politicas/Politica_de_integridad.gmi Politica de integridad
+=> gemini://sobnix.ar/Politicas/Politica_de_sustentabilidad.gmi Politica de sustentabilidad
+=> gemini://sobnix.ar/Politicas/Politica_de_privacidad.gmi Politica de privacidad
+=> gemini://sobnix.ar/Politicas/Politica_de_seguridad.gmi Politica de seguridad
+
+# Filosofía
+
+### Misión
+
+_Sobnix_ promueve la descentralización de la web ofreciendo un sistema  
+autoalojado de cómputo compartido tipo Unix. Pretende empoderar a las  
+personas hacia la soberanía digital, utilizando un sistema operativo basado  
+completamente en software libre, accesible de forma gratuita, contribuyendo  
+así a la construcción de un futuro social más equitativo y justo. Fomenta  
+el uso responsable y sostenible del Internet libre, abierta y  
+descentralizada alentando el uso de las redes federadas. Promueve la  
+colaboración, la enseñanza, el aprendizaje mutuo y la inclusión de las  
+personas usuarias y administradoras.  
+ 
+### Visión
+
+_Sobnix_ está comprometido en ser reconocido por su compromiso inquebrantable  
+con la soberanía digital, la justicia tecnológica y la promoción del  
+software libre, habilitando a que las personas usuarias asuman el control de  
+sus herramientas digitales, y contribuyendo significativamente a la  
+democratización del acceso a la tecnología y el conocimiento, demostrando  
+que la autonomía digital es fácilmente alcanzable.  
+
+### Valores
+
+* __Inclusión__: Proporcionar un sistema de acceso público y gratuito para  
+todas las personas, independientemente de sus recursos o capacidades.  
+* __Libertad__: Utilizar y promover el uso de software libre.  
+* __Soberanía__: Gestionar nuestra infraestructura y recursos digitales de  
+manera independiente y autónoma.  
+* __Cooperación__: Fomentar la cultura de la colaboración, enseñanza y  
+aprendizaje mutuo entre las personas usuarias y administradoras del sistema.  
+* __Privacidad__: Mantener la privacidad de los datos y actividades de las  
+personas usuarias y administradoras.  
+* __Anonimato__: Respetar el anonimato de las personas usuarias y  
+administradoras.  
+_______________________________________________________________________________
+
+### Autoría y licencia
+
+Filosofía © 2025 por \~ferorge
+=> mailto:ferorge@texto-plano.xyz ferorge@texto-plano.xyz.
+
+![Licenciado bajo CC BY-SA 4.0.][img]
+[img]: https://mirrors.creativecommons.org/presskit/buttons/88x31/png/by-sa.png
+"CC BY-SA 4.0 International"
+
+Para ver una copia de esta licencia, visite CC BY-SA 4.0.
+=> https://creativecommons.org/licenses/by-sa/4.0/deed.es CC BY-SA 4.0
+_______________________________________________________________________________
+
+sobnix | Pubnix soberano | __En línea desde: 2026-01-02 08:07:52__
+_______________________________________________________________________________
+
+>  No non-free or contrib packages installed on sobnix.ar!  
+>  You have completed the first step to enlightenment.
+_______________________________________________________________________________
+
+EOF
+
