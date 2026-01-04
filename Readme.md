@@ -1,27 +1,39 @@
 #  Sitio de sobnix
 
 ## __Objetivo__
-Crear el sitio web de sobnix dinámicamente a partir de texto plano utilizando  
-[multimarkdown v6].
+
+Crear el sitio web y cápsula gemini de sobnix dinámicamente a partir de texto  
+plano utilizando  [multimarkdown v6].
 [multimarkdown v6]:https://fletcherpenney.net/multimarkdown/
 
 ## __Dependencias__
+
 Para ejecutar los guiones es necesario instalar las siguientes dependencias:  
 * coreutils
 * sed
 * multimarkdown v6
 
 ## __Procedimiento__
-1. Clonar el repositorio en /var/local/ o en la ruta de tu preferencia.  
+
+* Clonar el repositorio en /var/local/ o en la ruta de tu preferencia.  
 ```
 cd /var/local/
 umask 022
 git clone https://git.sobnix.ar/ferorge/sobnix-sitio
 umask 077
 ```
-2. Editar el guión _650.Instalar-html.sh_ indicando la ruta al document root.  
-3. Ejecutar el guión _650.Instalar-html.sh_.  
-4. Apuntar el servidor web al directorio _public/_.  
+### __Procedimiento para sitio html__
+
+1. Editar el guión _650.Instalar-html.sh_ indicando la ruta al document root.  
+2. Ejecutar el guión _650.Instalar-html.sh_.  
+3. Apuntar el servidor web al directorio _public/_.  
+
+### __Procedimiento para cápsula gemini__
+
+1. Ejecutar el guión _630.Creacion-capsula.sh_.
+2. Editar el guión _660.Instalar-gemini.sh_ indicando la ruta a /var/gemini/.  
+3. Ejecutar el guión _660.Instalar-gemini.sh_.  
+4. Apuntar el servidor gemini al directorio _gmi/_.  
 
 ## __Sitios incluídos__
 1. Inicio.
