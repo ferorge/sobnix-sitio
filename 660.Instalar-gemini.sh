@@ -17,8 +17,9 @@ DIR=/var/gemini/gmi/
 
 mkdir -p $DIR
 
-cp -r ./public_gemini $DIR
+cp -r ./public_gemini/gmi/* $DIR
 
 chown -R molly-brown:molly-brown $DIR
+
 
 umask 077

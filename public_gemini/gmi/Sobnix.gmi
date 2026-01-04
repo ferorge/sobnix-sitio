@@ -12,28 +12,28 @@ _______________________________________________________________________________
 ## Pubnix | Auto alojado > Soberano
 _______________________________________________________________________________
 
-=> gemini://sobnix.ar/Sobnix.gmi Sobnix
-=> gemini://sobnix.ar/Filosofia.gmi Filosofia
-=> gemini://sobnix.ar/Servicios.gmi Servicios
-=> gemini://sobnix.ar/Codigo_de_conducta.gmi Codigo de conducta
-=> gemini://sobnix.ar/Unite.gmi Unite
-=> gemini://sobnix.ar/Novedades.gmi Novedades
+=> gemini://sobnix.ar/gmi/Sobnix.gmi Sobnix
+=> gemini://sobnix.ar/gmi/Filosofia.gmi Filosofia
+=> gemini://sobnix.ar/gmi/Servicios.gmi Servicios
+=> gemini://sobnix.ar/gmi/Codigo_de_conducta.gmi Codigo de conducta
+=> gemini://sobnix.ar/gmi/Unite.gmi Unite
+=> gemini://sobnix.ar/gmi/Novedades.gmi Novedades
 
 * Politicas
-=> gemini://sobnix.ar/Politicas/Politica_de_diversidad.gmi Politica de diversidad
-=> gemini://sobnix.ar/Politicas/Politica_de_integridad.gmi Politica de integridad
-=> gemini://sobnix.ar/Politicas/Politica_de_sustentabilidad.gmi Politica de sustentabilidad
-=> gemini://sobnix.ar/Politicas/Politica_de_privacidad.gmi Politica de privacidad
-=> gemini://sobnix.ar/Politicas/Politica_de_seguridad.gmi Politica de seguridad
+=> gemini://sobnix.ar/gmi/Politicas/Politica_de_diversidad.gmi Politica de diversidad
+=> gemini://sobnix.ar/gmi/Politicas/Politica_de_integridad.gmi Politica de integridad
+=> gemini://sobnix.ar/gmi/Politicas/Politica_de_sustentabilidad.gmi Politica de sustentabilidad
+=> gemini://sobnix.ar/gmi/Politicas/Politica_de_privacidad.gmi Politica de privacidad
+=> gemini://sobnix.ar/gmi/Politicas/Politica_de_seguridad.gmi Politica de seguridad
 
 # Sobnix
 
 __Servidor Trisquel soberano.__
 _______________________________________________________________________________
 
-Las 4 libertades cruciales que definen el "software libre" quedan garantizadas 
-para cualquiera que posea una copia; estas libertades se convierten en derechos 
-inalienables.
+En el laboratorio de programación de Harvard solían tener la política de que 
+ningún programa podía ser instalado en el sistema si su código fuente no 
+estaba a disposición del públic.
 _______________________________________________________________________________
 
                                    
@@ -42,13 +42,13 @@ _______________________________________________________________________________
                                    
 _______________________________________________________________________________
 
-=> gemini://sobnix.ar/~boleta/ ~boleta  
-=> gemini://sobnix.ar/~ferorge/ ~ferorge  
-=> gemini://sobnix.ar/~luchi2016/ ~luchi2016  
-=> gemini://sobnix.ar/~pituca/ ~pituca  
-=> gemini://sobnix.ar/~soru/ ~soru  
-=> gemini://sobnix.ar/~tano/ ~tano  
-=> gemini://sobnix.ar/~zippo/ ~zippo  
+=> gemini://sobnix.ar/gmi/~boleta/ ~boleta  
+=> gemini://sobnix.ar/gmi/~ferorge/ ~ferorge  
+=> gemini://sobnix.ar/gmi/~luchi2016/ ~luchi2016  
+=> gemini://sobnix.ar/gmi/~pituca/ ~pituca  
+=> gemini://sobnix.ar/gmi/~soru/ ~soru  
+=> gemini://sobnix.ar/gmi/~tano/ ~tano  
+=> gemini://sobnix.ar/gmi/~zippo/ ~zippo  
 _______________________________________________________________________________
 
 ### Autoría y licencia

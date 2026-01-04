@@ -12,19 +12,19 @@ _______________________________________________________________________________
 ## Pubnix | Auto alojado > Soberano
 _______________________________________________________________________________
 
-=> gemini://sobnix.ar/Sobnix.gmi Sobnix
-=> gemini://sobnix.ar/Filosofia.gmi Filosofia
-=> gemini://sobnix.ar/Servicios.gmi Servicios
-=> gemini://sobnix.ar/Codigo_de_conducta.gmi Codigo de conducta
-=> gemini://sobnix.ar/Unite.gmi Unite
-=> gemini://sobnix.ar/Novedades.gmi Novedades
+=> gemini://sobnix.ar/gmi/Sobnix.gmi Sobnix
+=> gemini://sobnix.ar/gmi/Filosofia.gmi Filosofia
+=> gemini://sobnix.ar/gmi/Servicios.gmi Servicios
+=> gemini://sobnix.ar/gmi/Codigo_de_conducta.gmi Codigo de conducta
+=> gemini://sobnix.ar/gmi/Unite.gmi Unite
+=> gemini://sobnix.ar/gmi/Novedades.gmi Novedades
 
 * Politicas
-=> gemini://sobnix.ar/Politicas/Politica_de_diversidad.gmi Politica de diversidad
-=> gemini://sobnix.ar/Politicas/Politica_de_integridad.gmi Politica de integridad
-=> gemini://sobnix.ar/Politicas/Politica_de_sustentabilidad.gmi Politica de sustentabilidad
-=> gemini://sobnix.ar/Politicas/Politica_de_privacidad.gmi Politica de privacidad
-=> gemini://sobnix.ar/Politicas/Politica_de_seguridad.gmi Politica de seguridad
+=> gemini://sobnix.ar/gmi/Politicas/Politica_de_diversidad.gmi Politica de diversidad
+=> gemini://sobnix.ar/gmi/Politicas/Politica_de_integridad.gmi Politica de integridad
+=> gemini://sobnix.ar/gmi/Politicas/Politica_de_sustentabilidad.gmi Politica de sustentabilidad
+=> gemini://sobnix.ar/gmi/Politicas/Politica_de_privacidad.gmi Politica de privacidad
+=> gemini://sobnix.ar/gmi/Politicas/Politica_de_seguridad.gmi Politica de seguridad
 
 # Código de conducta
 
@@ -44,11 +44,11 @@ Las personas usuarias y administradoras de este servidor público y soberano
 (a partir de aquí ¨sobnix¨) aceptan cumplir con las disposiciones de las
 siguientes políticas:
 
-=> gemini://sobnix.ar/Politicas/Politica_de_diversidad.gmi Politica de diversidad
-=> gemini://sobnix.ar/Politicas/Politica_de_integridad.gmi Politica de integridad
-=> gemini://sobnix.ar/Politicas/Politica_de_sustentabilidad.gmi Politica de sustentabilidad
-=> gemini://sobnix.ar/Politicas/Politica_de_privacidad.gmi Politica de privacidad
-=> gemini://sobnix.ar/Politicas/Politica_de_seguridad.gmi Politica de seguridad
+=> gemini://sobnix.ar/gmi/Politicas/Politica_de_diversidad.gmi Politica de diversidad
+=> gemini://sobnix.ar/gmi/Politicas/Politica_de_integridad.gmi Politica de integridad
+=> gemini://sobnix.ar/gmi/Politicas/Politica_de_sustentabilidad.gmi Politica de sustentabilidad
+=> gemini://sobnix.ar/gmi/Politicas/Politica_de_privacidad.gmi Politica de privacidad
+=> gemini://sobnix.ar/gmi/Politicas/Politica_de_seguridad.gmi Politica de seguridad
 _______________________________________________________________________________
 
 ### Autoría y licencia

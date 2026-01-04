@@ -53,7 +53,7 @@ do
     multimarkdown -t mmd -o $DIR$gmi es/.gemini.mmd
 
     ### Sustitución de https a gemini.
-    sed -i 's|https://sobnix.ar/|gemini://sobnix.ar/|g' $DIR$gmi
+    sed -i 's|https://sobnix.ar/|gemini://sobnix.ar/gmi/|g' $DIR$gmi
     sed -i 's/.html/.gmi/g' $DIR$gmi
 
     ### Conversión a gemtext.
