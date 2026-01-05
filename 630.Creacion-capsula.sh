@@ -55,6 +55,7 @@ do
     ### Sustitución de https a gemini.
     sed -i 's|https://sobnix.ar/|gemini://sobnix.ar/gmi/|g' $DIR$gmi
     sed -i 's/.html/.gmi/g' $DIR$gmi
+    sed -i 's|gmi/~|users/|g' $DIR$gmi
 
     ### Conversión a gemtext.
     #### Sustitución de enlaces [Sitio](enlace)'
