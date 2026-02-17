@@ -51,11 +51,11 @@ umask 077
 5. Unite.
 6. Novedades.
 
-## __Encabezado__
+### __Encabezado__
 * Cartel.
 * Eslogan.
 
-## __Pie de página__
+### __Pie de página__
 * Licencia
 * Tiempo en línea
 * Compromiso con el software libre.
@@ -74,3 +74,11 @@ umask 077
 * _webmail_
 * _webring_
 * _xmpp_
+
+## Licencia
+
+sobnix-sitio se distribuye bajo la licencia GPLv3.
+Consulte el fichero LICENSE para más detalles.
+
+EOF
+
