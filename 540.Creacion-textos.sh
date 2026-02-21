@@ -100,10 +100,12 @@ __Servidor Trisquel soberano.__
 $(echo $DIV)
 EOF
 
-cat <<EOF > $DIR'64-motd.md'
-$(fortune rms2 | fold -s)
-$(echo $DIV)
-EOF
+# cat <<EOF > $DIR'64-motd.md'
+# $(fortune rms2 | fold -s)
+# $(echo $DIV)
+# EOF
+
+echo $DIV >> $DIR'64-motd.md'
 
 cat <<EOF > $DIR'66-usuaries.md'
 $(toilet -f mini -k '    Usuaries')
