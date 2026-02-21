@@ -66,6 +66,8 @@ do
     # sed -i "s/$name/Documento/g" es/71-licencia.md
 done
 
+sed -i "s/Documento/Sobnix/g" public_html/Sobnix.html
+
 ## __Eliminación de fichero de trabajo__
 rm es/.work.md
 
