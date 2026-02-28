@@ -125,6 +125,7 @@ $(sed s/Titulo/Sobnix/g es/.01-head.mmd)
 {{./66-usuaries.md}}
 {{./68-userlist.md}}
 {{./71-licencia.md}}
+$(echo $DIV)
 EOF
 
 cat <<EOF > $DIR'.70-footer.mmd'
