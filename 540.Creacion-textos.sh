@@ -93,29 +93,23 @@ cat <<EOF > $DIR'60-article.md'
 $(echo $DIV)
 EOF
 
-cat <<EOF > $DIR'62-sobnix.md'
-# Sobnix
+### El fichero 62-sobnix.md es estático.
 
-__Servidor Trisquel soberano.__
-$(echo $DIV)
-EOF
-
-# cat <<EOF > $DIR'64-motd.md'
-# $(fortune rms2 | fold -s)
-# $(echo $DIV)
-# EOF
-
-echo $DIV >> $DIR'64-motd.md'
-
-cat <<EOF > $DIR'66-usuaries.md'
+cat <<EOF > $DIR'64-usuaries.md'
 $(toilet -f mini -k '    Usuaries')
 $(echo $DIV)
 EOF
 
-cat <<EOF > $DIR'68-userlist.md'
+cat <<EOF > $DIR'66-userlist.md'
 $(grep ':100:' /etc/passwd | grep -v ':x:100:' | cut -d ':' -f 1 | sort | xargs -I {} printf "[~{}](https://$FQDN/~{}/)  \n")
 $(echo $DIV)
 EOF
+
+### El fichero 68-motd.md es generado a través de index.py.
+### El usuario www-data no tiene acceso a /usr/games/fortune
+
+sed -i '1 i\_Recuerda que_  ' $DIR'68-motd.md'
+echo $DIV >> $DIR'68-motd.md'
 
 cat <<EOF > $DIR'69-index.mmd'
 $(sed s/Titulo/Sobnix/g es/.01-head.mmd)
