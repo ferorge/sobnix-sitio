@@ -25,7 +25,7 @@ umask 077
 ### __Procedimiento para sitio html__
 
 1. Editar el guión _650.Instalar-html.sh_ indicando la ruta al document root.  
-2. Ejecutar el guión _650.Instalar-html.sh_.  
+2. Ejecutar el guión _650.Instalar-html.sh_ con permisos de super usuario.  
 3. Apuntar el servidor web al directorio _public/_.  
 
 ### __Procedimiento para cápsula gemini__
