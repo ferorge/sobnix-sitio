@@ -30,6 +30,9 @@ logger '540 | Modificando configuración.'
 
 DIV='_______________________________________________________________________________'
 
+## Cambio de máscasra a lectura otros usuarios.
+umask 022
+
 cat <<EOF > $DIR'.01-head.mmd'
 Language: es
 Quotes Language: es
@@ -154,6 +157,9 @@ echo $DIV >> $DIR'73-vrms.md'
 sed -i '1d' $DIR'73-vrms.md'
 
 multimarkdown -t mmd -o ./es/articles/10.Sobnix.md $DIR'69-index.mmd'
+
+## Cambio de máscasra a lectura y escritura solo usuario.
+umask 077
 
 logger "textos modificados por $USER"
 

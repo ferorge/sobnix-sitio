@@ -26,6 +26,9 @@ FILE='31-menu.md'
 ## __Modificación de configuración__
 logger '618 | Modificando configuración.'
 
+## Cambio de máscasra a lectura otros usuarios.
+umask 022
+
 # Borra el contenido de 31-menu.md
 echo '' > $DIR$FILE
 
@@ -50,6 +53,9 @@ do
     echo "    * [$NAME]($LINK)" >> $DIR$FILE
   fi
 done
+
+## Cambio de máscasra a lectura y escritura solo usuario.
+umask 077
 
 logger "$FILE modificado por $USER"
 

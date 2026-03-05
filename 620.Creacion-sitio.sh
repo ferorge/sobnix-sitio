@@ -24,6 +24,9 @@ source ./542.Creacion-plantilla-md.sh
 ## __Creación de sitio__
 md_files=$(find ./es/articles/ -name '*.md' | sort)
 
+## Cambio de máscasra a lectura otros usuarios.
+umask 022
+
 for file in $md_files
 do
     ### División de head y article
@@ -71,3 +74,5 @@ sed -i "s/Documento/Sobnix/g" public/Sobnix.html
 ## __Eliminación de fichero de trabajo__
 rm es/.work.md
 
+## Cambio de máscasra a lectura y escritura solo usuario.
+umask 077

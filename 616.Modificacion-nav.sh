@@ -27,6 +27,9 @@ FILE='21-navbar.md'
 ## __Modificación de configuración__
 logger '616 | Modificando configuración.'
 
+## Cambio de máscasra a lectura otros usuarios.
+umask 022
+
 # Borra el contenido de 21-navbar.md
 echo '' > $DIR$FILE
 
@@ -45,6 +48,9 @@ do
 done
 
 sed -i "s/Index/Inicio/g" $DIR$FILE
+
+## Cambio de máscasra a lectura y escritura solo usuario.
+umask 077
 
 logger "$FILE modificado por $USER"
 

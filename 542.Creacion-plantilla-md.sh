@@ -25,6 +25,9 @@ FILE=".02-body.mmd"
 ## __Modificación de configuración__
 logger "542 | Modificando configuración."
 
+## Cambio de máscasra a lectura otros usuarios.
+umask 022
+
 ### Agregar a la plantilla si el articulo no contiene los metadatos.
 #### $(cat $DIR'.01-head.mmd')
 #### Title: Plantilla
@@ -49,6 +52,9 @@ cat <<EOF > $DIR$FILE
 </footer>
 
 EOF
+
+## Cambio de máscasra a lectura y escritura solo usuario.
+umask 077
 
 logger "542 | $FILE modificados por $USER"
 

@@ -24,11 +24,13 @@ source ./618.Modificacion-aside.sh
 ## __Creación de la cápsula__
 md_files=$(find ./es/articles/ -name '*.md' | sort)
 
+## Cambio de máscasra a lectura otros usuarios.
+umask 022
+
 ## __Creación de directorio raíz__
 DIR=public_gemini/gmi/
 mkdir -p $DIR
 
-umask 022
 for file in $md_files
 do
     ### Obtención de artículo sin metadatos.
@@ -71,4 +73,6 @@ do
     sed -i '/^$/N;/\n$/D' $DIR$gmi
 
 done
+
+## Cambio de máscasra a lectura y escritura solo usuario.
 umask 077
