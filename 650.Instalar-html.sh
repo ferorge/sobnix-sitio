@@ -22,7 +22,7 @@ cp ./616.Modificacion-nav.sh $DIR
 cp ./618.Modificacion-aside.sh $DIR
 cp ./620.Creacion-sitio.sh $DIR
 cp -r ./es/articles $DIR'es/'
-cp -r ./public_html $DIR
+cp -r ./public $DIR
 
 chown -R www-data:www-data $DIR
 

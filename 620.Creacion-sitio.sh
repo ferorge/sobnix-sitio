@@ -38,7 +38,7 @@ do
 	dir_site=''
     else
         ### Creación de subdirectorios.
-        mkdir -p ./public_html/$dir_site
+        mkdir -p ./public/$dir_site
 
 	### Adecuación de ruta del CSS.
 	sed -i "s/css: lynx.css/css: ..\/lynx.css/g" es/.01-head.mmd
@@ -59,14 +59,14 @@ do
     cat es/.01-head.mmd es/.02-body.mmd > es/.work.md
 
     ### Conversión de md a html.
-    multimarkdown -o public_html/$dir_site/$name_site.html es/.work.md
+    multimarkdown -o public/$dir_site/$name_site.html es/.work.md
 
     ### Quitar artículo de licencia.
     ###### Licencia agregada a cada artículo.
     # sed -i "s/$name/Documento/g" es/71-licencia.md
 done
 
-sed -i "s/Documento/Sobnix/g" public_html/Sobnix.html
+sed -i "s/Documento/Sobnix/g" public/Sobnix.html
 
 ## __Eliminación de fichero de trabajo__
 rm es/.work.md
