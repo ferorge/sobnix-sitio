@@ -74,5 +74,7 @@ do
 
 done
 
+sed -i "s/Documento/Sobnix/g" public_gemini/gmi/Sobnix.gmi
+
 ## Cambio de máscasra a lectura y escritura solo usuario.
 umask 077
